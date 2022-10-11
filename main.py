@@ -20,7 +20,7 @@ def edit_msg(update, context):
     text = update.message.text
     text = ''.join(
         [(' '.join(list(filter(lambda x: 'абв' not in x.lower(), text.split()))))])
-    context.bot.send_message(update.effective_chat.id, f'{text}')
+    context.bot.send_message(update.effective_chat.id, text)
 
 
 start_handler = CommandHandler('start', start)
