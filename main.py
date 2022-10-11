@@ -6,8 +6,8 @@ from telegram import Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 
-bot = Bot(token='5708544363:AAEbLxsBy30y5mGL_m4Uxhw30jIQszGe5Gc')
-updater = Updater(token='5708544363:AAEbLxsBy30y5mGL_m4Uxhw30jIQszGe5Gc')
+bot = Bot(token='замените это на токен вашего бота')
+updater = Updater(token='замените это на токен вашего бота')
 dispatcher = updater.dispatcher
 
 
